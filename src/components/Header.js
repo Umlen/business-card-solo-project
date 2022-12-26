@@ -1,6 +1,13 @@
+import myPhoto from '../photo.jpg';
+
 function Header() {
     return (
-        <h1>Header</h1>
+        <header className="header">
+            <img src={myPhoto} className="profile-photo"/>
+            <h1>Patrin Viktor</h1>
+            <h2>Frontend Developer</h2>
+            <a href='http://viktorpatrin.com/'>viktorpatrin.com</a>
+        </header>
     );
 }
 
